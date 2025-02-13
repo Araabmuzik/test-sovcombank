@@ -489,7 +489,11 @@ header {
   }
 
   .table__title {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1rem + 0.5vw);
+  }
+
+  .table__list div {
+    font-size: calc(1rem + 0.3vw);
   }
 }
 
@@ -546,6 +550,10 @@ header {
 
   .table__cashback .row:first-child > .col span {
     font-size: 0.6rem;
+  }
+
+  .table__text {
+    padding: 20px;
   }
 }
 
